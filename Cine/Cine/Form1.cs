@@ -16,5 +16,12 @@ namespace Cine
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            CRUD c = new CRUD();
+            this.Hide();
+            c.Show();
+        }
     }
 }
