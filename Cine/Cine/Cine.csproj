@@ -64,6 +64,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Compañias.cs" />
+    <Compile Include="CRUD Compañias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRUD Compañias.Designer.cs">
+      <DependentUpon>CRUD Compañias.cs</DependentUpon>
+    </Compile>
     <Compile Include="CRUD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +92,9 @@
     <Compile Include="Peliculas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CRUD Compañias.resx">
+      <DependentUpon>CRUD Compañias.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CRUD.resx">
       <DependentUpon>CRUD.cs</DependentUpon>
     </EmbeddedResource>

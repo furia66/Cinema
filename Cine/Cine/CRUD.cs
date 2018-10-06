@@ -23,5 +23,19 @@ namespace Cine
             this.Hide();
             cp.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CRUD_Compañias p = new CRUD_Compañias();
+            this.Hide();
+            p.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form1 p = new Form1();
+            this.Hide();
+            p.Show();
+        }
     }
 }

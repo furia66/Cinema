@@ -21,3 +21,4 @@ C:\Users\David\source\repos\Cine\Cine\obj\Debug\Cine.csproj.CoreCompileInputs.ca
 C:\Users\David\source\repos\Cine\Cine\obj\Debug\Cine.csproj.CopyComplete
 C:\Users\David\source\repos\Cine\Cine\obj\Debug\Cine.exe
 C:\Users\David\source\repos\Cine\Cine\obj\Debug\Cine.pdb
+C:\Users\David\source\repos\Cine\Cine\obj\Debug\Cine.CRUD_Compañias.resources
