@@ -22,3 +22,9 @@ C:\Users\David\source\repos\Cine\Cine\obj\Debug\Cine.csproj.CopyComplete
 C:\Users\David\source\repos\Cine\Cine\obj\Debug\Cine.exe
 C:\Users\David\source\repos\Cine\Cine\obj\Debug\Cine.pdb
 C:\Users\David\source\repos\Cine\Cine\obj\Debug\Cine.CRUD_Compañias.resources
+C:\Users\David\source\repos\Cine\Cine\obj\Debug\Cine.Consultas.resources
+C:\Users\David\source\repos\Cine\Cine\obj\Debug\Cine.CPPT.resources
+C:\Users\David\source\repos\Cine\Cine\obj\Debug\Cine.CPPF.resources
+C:\Users\David\source\repos\Cine\Cine\obj\Debug\Cine.PPRDA.resources
+C:\Users\David\source\repos\Cine\Cine\obj\Debug\Cine.PPC.resources
+C:\Users\David\source\repos\Cine\Cine\obj\Debug\Cine.IEPC.resources

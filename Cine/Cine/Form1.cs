@@ -23,5 +23,12 @@ namespace Cine
             this.Hide();
             c.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Consultas p = new Consultas();
+            this.Hide();
+            p.Show();
+        }
     }
 }

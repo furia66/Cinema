@@ -42,7 +42,7 @@ namespace Cine
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Peliculas p = new Peliculas(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, textBox5.Text, Double.Parse(textBox7.Text), Double.Parse(textBox8.Text), textBox9.Text, textBox6.Text);
+            Peliculas p = new Peliculas(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, textBox5.Text, textBox7.Text, textBox8.Text, textBox9.Text, textBox6.Text);
             collection.InsertOne(p);
             ReadAllDocuments();
         }

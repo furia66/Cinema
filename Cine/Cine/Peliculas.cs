@@ -23,15 +23,15 @@ namespace Cine
         [BsonElement("pais_de_origen")]
         public String pais_de_origen { get; set; }
         [BsonElement("año_de_estreno")]
-        public double año_de_estreno { get; set; }
+        public String año_de_estreno { get; set; }
         [BsonElement("duracion_en_minutos")]
-        public double duracion_en_minutos { get; set; }
+        public String duracion_en_minutos { get; set; }
         [BsonElement("compañia_productora")]
         public String compañia_productora { get; set; }
         [BsonElement("actores")]
         public String actores { get; set; }
 
-        public Peliculas(string nombre_de_pelicula, string genero, string nombre_del_director, string franquicia, string pais_de_origen, double año_de_estreno, double duracion_en_minutos, string compañia_productora, String actores)
+        public Peliculas(string nombre_de_pelicula, string genero, string nombre_del_director, string franquicia, string pais_de_origen, string año_de_estreno, string duracion_en_minutos, string compañia_productora, string actores)
         {
             this.nombre_de_pelicula = nombre_de_pelicula;
             this.genero = genero;

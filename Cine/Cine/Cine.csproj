@@ -65,6 +65,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Compañias.cs" />
+    <Compile Include="Consultas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas.Designer.cs">
+      <DependentUpon>Consultas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPPF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CPPF.Designer.cs">
+      <DependentUpon>CPPF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CPPT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CPPT.Designer.cs">
+      <DependentUpon>CPPT.cs</DependentUpon>
+    </Compile>
     <Compile Include="CRUD Compañias.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,9 +107,37 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="IEPC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IEPC.Designer.cs">
+      <DependentUpon>IEPC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Peliculas.cs" />
+    <Compile Include="PeliculasReducidas.cs" />
+    <Compile Include="PPC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PPC.Designer.cs">
+      <DependentUpon>PPC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PPRDA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PPRDA.Designer.cs">
+      <DependentUpon>PPRDA.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Consultas.resx">
+      <DependentUpon>Consultas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPPF.resx">
+      <DependentUpon>CPPF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPPT.resx">
+      <DependentUpon>CPPT.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CRUD Compañias.resx">
       <DependentUpon>CRUD Compañias.cs</DependentUpon>
     </EmbeddedResource>
@@ -103,6 +149,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IEPC.resx">
+      <DependentUpon>IEPC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PPC.resx">
+      <DependentUpon>PPC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PPRDA.resx">
+      <DependentUpon>PPRDA.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
